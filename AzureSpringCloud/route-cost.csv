@@ -1,0 +1,9 @@
+Architektura,Spec,throughput,cost,dominating
+Monolit,1 CPU 1 GB RAM,0.06935,2.16,tak
+Monolit,3 CPU 3 GB RAM,0.19855,6.48,tak
+Monolit,4 CPU 6 GB RAM,0.250075,9.12,tak
+Mikroserwisy,1 x 1 CPU 1 GB RAM,0.060085,4.32,nie
+Mikroserwisy,1 x 3 CPU 3 GB RAM,0.19417,8.64,nie
+Mikroserwisy,3 x 1 CPU 1 GB RAM,0.17689,8.34,nie
+Mikroserwisy,6 x 1 CPU 1 GB RAM,0.274615,15.12,tak
+Mikroserwisy,2 x 2 CPU 2 GB RAM,0.257795,10.8,tak
