@@ -1,45 +1,45 @@
-Technologia,Architektura,Spec,throughput,cost,dominating
-Java,Mikroserwisy,1 x B1:1.75,0.02851,2.4,nie
-.NET,Monolit,B1:1.75,0.03354,1.8,tak
-Java,Mikroserwisy,1 x P4:14,0.389055,19.8,tak
-.NET,Mikroserwisy,1 x B1:1.75,0.031165,2.4,nie
-Java,Mikroserwisy,1 x S2:3.5,0.085795,5.4,tak
-.NET,Monolit,S2:3.5,0.06894,4.8,tak
-Java,Mikroserwisy,1 x S4:7,0.176485,10.2,nie
-.NET,Mikroserwisy,1 x S2:3.5,0.076865,5.4,tak
-Java,Mikroserwisy,10 x P4:14,0.52378,192.6,tak
-.NET,Mikroserwisy,3 x B1:1.75,0.070055,6,nie
-Java,Mikroserwisy,10 x S1:1.75,0.172335,24.6,nie
-.NET,Monolit,S4:7,0.136195,9.6,tak
-Java,Mikroserwisy,10 x S2:3.5,0.290245,48.6,nie
-.NET,Mikroserwisy,1 x S4:7,0.13149,10.2,nie
-Java,Mikroserwisy,10 x S4:7,0.295155,96.6,nie
-.NET,Mikroserwisy,3 x S2:3.5,0.17085,15,tak
-Java,Mikroserwisy,15 x P4:14,0.51112,288.6,nie
-.NET,Mikroserwisy,6 x S1:1.75,0.117665,15,nie
-Java,Mikroserwisy,20 x P4:14,0.47077,384.6,nie
-.NET,Monolit,P4:14,0.321815,19.2,tak
-Java,Mikroserwisy,3 x B1:1.75,0.070765,6,nie
-.NET,Mikroserwisy,1 x P4:14,0.317795,19.8,nie
-Java,Mikroserwisy,3 x P4:14,0.46307,58.2,tak
-.NET,Mikroserwisy,10 x S1:1.75,0.142055,24.6,nie
-Java,Mikroserwisy,3 x S2:3.5,0.18716,15,tak
-.NET,Mikroserwisy,3 x S4:7,0.234795,29.4,nie
-Java,Mikroserwisy,3 x S4:7,0.25539,29.4,nie
-.NET,Mikroserwisy,6 x S2:3.5,0.2425,29.4,nie
-Java,Mikroserwisy,6 x P4:14,0.513125,115.8,tak
-.NET,Mikroserwisy,10 x S2:3.5,0.260135,48.6,nie
-Java,Mikroserwisy,6 x S1:1.75,0.14357,15,nie
-.NET,Mikroserwisy,3 x P4:14,0.377505,58.2,tak
-Java,Mikroserwisy,6 x S2:3.5,0.264275,29.4,nie
-.NET,Mikroserwisy,6 x S4:7,0.241785,58.2,nie
-Java,Mikroserwisy,6 x S4:7,0.285305,58.2,nie
-.NET,Mikroserwisy,10 x S4:7,0.26944,96.6,nie
-Java,Monolit,B1:1.75,0.050225,1.8,tak
-.NET,Mikroserwisy,6 x P4:14,0.380875,115.8,tak
-Java,Monolit,P4:14,0.386555,19.2,tak
-.NET,Mikroserwisy,10 x P4:14,0.38423,192.6,tak
-Java,Monolit,S2:3.5,0.073255,4.8,tak
-.NET,Mikroserwisy,15 x P4:14,0.40161,288.6,tak
-Java,Monolit,S4:7,0.18454,9.6,tak
-.NET,Mikroserwisy,20 x P4:14,0.40098,384.6,nie
+Technology,Architecture,Spec,Throughput,Cost,Efficient
+Java,Microservices,1 x B1:1.75,0.02851,2.4,no
+.NET,Monolith,B1:1.75,0.03354,1.8,yes
+Java,Microservices,1 x P4:14,0.389055,19.8,yes
+.NET,Microservices,1 x B1:1.75,0.031165,2.4,no
+Java,Microservices,1 x S2:3.5,0.085795,5.4,yes
+.NET,Monolith,S2:3.5,0.06894,4.8,yes
+Java,Microservices,1 x S4:7,0.176485,10.2,no
+.NET,Microservices,1 x S2:3.5,0.076865,5.4,yes
+Java,Microservices,10 x P4:14,0.52378,192.6,yes
+.NET,Microservices,3 x B1:1.75,0.070055,6,no
+Java,Microservices,10 x S1:1.75,0.172335,24.6,no
+.NET,Monolith,S4:7,0.136195,9.6,yes
+Java,Microservices,10 x S2:3.5,0.290245,48.6,no
+.NET,Microservices,1 x S4:7,0.13149,10.2,no
+Java,Microservices,10 x S4:7,0.295155,96.6,no
+.NET,Microservices,3 x S2:3.5,0.17085,15,yes
+Java,Microservices,15 x P4:14,0.51112,288.6,no
+.NET,Microservices,6 x S1:1.75,0.117665,15,no
+Java,Microservices,20 x P4:14,0.47077,384.6,no
+.NET,Monolith,P4:14,0.321815,19.2,yes
+Java,Microservices,3 x B1:1.75,0.070765,6,no
+.NET,Microservices,1 x P4:14,0.317795,19.8,no
+Java,Microservices,3 x P4:14,0.46307,58.2,yes
+.NET,Microservices,10 x S1:1.75,0.142055,24.6,no
+Java,Microservices,3 x S2:3.5,0.18716,15,yes
+.NET,Microservices,3 x S4:7,0.234795,29.4,no
+Java,Microservices,3 x S4:7,0.25539,29.4,no
+.NET,Microservices,6 x S2:3.5,0.2425,29.4,no
+Java,Microservices,6 x P4:14,0.513125,115.8,yes
+.NET,Microservices,10 x S2:3.5,0.260135,48.6,no
+Java,Microservices,6 x S1:1.75,0.14357,15,no
+.NET,Microservices,3 x P4:14,0.377505,58.2,yes
+Java,Microservices,6 x S2:3.5,0.264275,29.4,no
+.NET,Microservices,6 x S4:7,0.241785,58.2,no
+Java,Microservices,6 x S4:7,0.285305,58.2,no
+.NET,Microservices,10 x S4:7,0.26944,96.6,no
+Java,Monolith,B1:1.75,0.050225,1.8,yes
+.NET,Microservices,6 x P4:14,0.380875,115.8,yes
+Java,Monolith,P4:14,0.386555,19.2,yes
+.NET,Microservices,10 x P4:14,0.38423,192.6,yes
+Java,Monolith,S2:3.5,0.073255,4.8,yes
+.NET,Microservices,15 x P4:14,0.40161,288.6,yes
+Java,Monolith,S4:7,0.18454,9.6,yes
+.NET,Microservices,20 x P4:14,0.40098,384.6,no

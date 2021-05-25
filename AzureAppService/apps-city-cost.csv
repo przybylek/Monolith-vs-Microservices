@@ -1,45 +1,45 @@
-Technologia,Architektura,Spec,throughput,cost,dominating
-Java,Monolit,B1:1.75,2.92594,1.8,tak
-.NET,Monolit,B1:1.75,3.556225,1.8,tak
-Java,Mikroserwisy,1 x B1:1.75,2.998185,2.4,tak
-.NET,Mikroserwisy,1 x B1:1.75,3.60829,2.4,tak
-Java,Monolit,S2:3.5,3.632405,4.8,tak
-.NET,Monolit,S2:3.5,3.69218,4.8,tak
-Java,Mikroserwisy,1 x S2:3.5,3.62845,5.4,nie
-.NET,Mikroserwisy,1 x S2:3.5,3.69754,5.4,tak
-Java,Mikroserwisy,3 x B1:1.75,3.269815,6,nie
-.NET,Mikroserwisy,3 x B1:1.75,3.62275,6,nie
-Java,Monolit,S4:7,3.66192,9.6,tak
-.NET,Monolit,S4:7,3.754275,9.6,tak
-Java,Mikroserwisy,1 x S4:7,3.68076,10.2,tak
-.NET,Mikroserwisy,1 x S4:7,3.74545,10.2,nie
-Java,Mikroserwisy,6 x S1:1.75,3.317675,15,nie
-.NET,Mikroserwisy,6 x S1:1.75,3.62879,15,nie
-Java,Mikroserwisy,3 x S2:3.5,3.774435,15,tak
-.NET,Mikroserwisy,3 x S2:3.5,3.82884,15,tak
-Java,Monolit,P4:14,3.50244,19.2,nie
-.NET,Monolit,P4:14,3.53869,19.2,nie
-Java,Mikroserwisy,1 x P4:14,3.41039,19.8,nie
-.NET,Mikroserwisy,1 x P4:14,3.539325,19.8,nie
-Java,Mikroserwisy,10 x S1:1.75,3.313735,24.6,nie
-.NET,Mikroserwisy,10 x S1:1.75,3.78401,24.6,nie
-Java,Mikroserwisy,6 x S2:3.5,3.74104,29.4,nie
-Java,Mikroserwisy,3 x S4:7,3.81562,29.4,tak
-.NET,Mikroserwisy,6 x S2:3.5,3.825685,29.4,nie
-.NET,Mikroserwisy,3 x S4:7,3.891125,29.4,tak
-Java,Mikroserwisy,10 x S2:3.5,3.628085,48.6,nie
-.NET,Mikroserwisy,10 x S2:3.5,3.809635,48.6,nie
-.NET,Mikroserwisy,3 x P4:14,3.590215,58.2,nie
-Java,Mikroserwisy,3 x P4:14,3.6872,58.2,nie
-Java,Mikroserwisy,6 x S4:7,3.822515,58.2,tak
-.NET,Mikroserwisy,6 x S4:7,3.89772,58.2,tak
-Java,Mikroserwisy,10 x S4:7,3.806025,96.6,nie
-.NET,Mikroserwisy,10 x S4:7,3.8099,96.6,nie
-.NET,Mikroserwisy,6 x P4:14,3.658665,115.8,nie
-Java,Mikroserwisy,6 x P4:14,3.70991,115.8,nie
-.NET,Mikroserwisy,10 x P4:14,3.67709,192.6,nie
-Java,Mikroserwisy,10 x P4:14,3.70334,192.6,nie
-.NET,Mikroserwisy,15 x P4:14,3.68477,288.6,nie
-Java,Mikroserwisy,15 x P4:14,3.74121,288.6,nie
-.NET,Mikroserwisy,20 x P4:14,3.73468,384.6,nie
-Java,Mikroserwisy,20 x P4:14,3.757555,384.6,nie
+Technology,Architecture,Spec,Throughput,Cost,Efficient
+Java,Monolith,B1:1.75,2.92594,1.8,yes
+.NET,Monolith,B1:1.75,3.556225,1.8,yes
+Java,Microservices,1 x B1:1.75,2.998185,2.4,yes
+.NET,Microservices,1 x B1:1.75,3.60829,2.4,yes
+Java,Monolith,S2:3.5,3.632405,4.8,yes
+.NET,Monolith,S2:3.5,3.69218,4.8,yes
+Java,Microservices,1 x S2:3.5,3.62845,5.4,no
+.NET,Microservices,1 x S2:3.5,3.69754,5.4,yes
+Java,Microservices,3 x B1:1.75,3.269815,6,no
+.NET,Microservices,3 x B1:1.75,3.62275,6,no
+Java,Monolith,S4:7,3.66192,9.6,yes
+.NET,Monolith,S4:7,3.754275,9.6,yes
+Java,Microservices,1 x S4:7,3.68076,10.2,yes
+.NET,Microservices,1 x S4:7,3.74545,10.2,no
+Java,Microservices,6 x S1:1.75,3.317675,15,no
+.NET,Microservices,6 x S1:1.75,3.62879,15,no
+Java,Microservices,3 x S2:3.5,3.774435,15,yes
+.NET,Microservices,3 x S2:3.5,3.82884,15,yes
+Java,Monolith,P4:14,3.50244,19.2,no
+.NET,Monolith,P4:14,3.53869,19.2,no
+Java,Microservices,1 x P4:14,3.41039,19.8,no
+.NET,Microservices,1 x P4:14,3.539325,19.8,no
+Java,Microservices,10 x S1:1.75,3.313735,24.6,no
+.NET,Microservices,10 x S1:1.75,3.78401,24.6,no
+Java,Microservices,6 x S2:3.5,3.74104,29.4,no
+Java,Microservices,3 x S4:7,3.81562,29.4,yes
+.NET,Microservices,6 x S2:3.5,3.825685,29.4,no
+.NET,Microservices,3 x S4:7,3.891125,29.4,yes
+Java,Microservices,10 x S2:3.5,3.628085,48.6,no
+.NET,Microservices,10 x S2:3.5,3.809635,48.6,no
+.NET,Microservices,3 x P4:14,3.590215,58.2,no
+Java,Microservices,3 x P4:14,3.6872,58.2,no
+Java,Microservices,6 x S4:7,3.822515,58.2,yes
+.NET,Microservices,6 x S4:7,3.89772,58.2,yes
+Java,Microservices,10 x S4:7,3.806025,96.6,no
+.NET,Microservices,10 x S4:7,3.8099,96.6,no
+.NET,Microservices,6 x P4:14,3.658665,115.8,no
+Java,Microservices,6 x P4:14,3.70991,115.8,no
+.NET,Microservices,10 x P4:14,3.67709,192.6,no
+Java,Microservices,10 x P4:14,3.70334,192.6,no
+.NET,Microservices,15 x P4:14,3.68477,288.6,no
+Java,Microservices,15 x P4:14,3.74121,288.6,no
+.NET,Microservices,20 x P4:14,3.73468,384.6,no
+Java,Microservices,20 x P4:14,3.757555,384.6,no
