@@ -18,11 +18,14 @@ getPlot <- function(data, titleTxt, subtitleTxt, xlabTxt, ylabTxt, fillTxt){
   p = p + theme_bw()
   p = p + theme(#element_blank()
       legend.position='bottom',
+      legend.title=element_text(size=11), 
+      legend.text=element_text(size=10),
+      axis.title.y = element_text(size = 10),		
       strip.text.x = element_text(size = 10), #grid panel header 
       axis.text.x = element_text(size = 8), #grid panel label
       strip.text.y = element_blank(), # remove right bar with Type
-      plot.subtitle = element_text(hjust = 0.5, size = 14),
-      plot.title = element_text(hjust = 0.5, size = 14)
+      plot.subtitle = element_text(hjust = 0.5, size = 12),
+      plot.title = element_text(hjust = 0.5, size = 12)
   )
   p = p + scale_shape_manual(values=c(16))
   return(p)

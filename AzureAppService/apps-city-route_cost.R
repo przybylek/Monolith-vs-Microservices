@@ -26,12 +26,14 @@ getPlot <- function(data, titleTxt, subtitleTxt, xlabTxt, ylabTxt, fillTxt){
       )
   p = p + theme_bw()
   p = p + theme(
+    legend.position='bottom',
+    legend.title=element_text(size=11), 
+    legend.text=element_text(size=10),
     axis.title.x = element_text(size = 11),
-    axis.title.y = element_text(size = 11),
-    plot.subtitle = element_text(hjust = 0.5, size = 14),
-    plot.title = element_text(hjust = 0.5, size = 14)
+    axis.title.y = element_text(size = 10),
+    plot.subtitle = element_text(hjust = 0.5, size = 12),
+    plot.title = element_text(hjust = 0.5, size = 12)
   )
-  p = p + theme(legend.position='bottom')
   p = p + facet_grid(~Technology)
   return(p)
 }
@@ -43,7 +45,7 @@ csvFile = 'apps-city-cost.csv'
 city = dataPreprocessing(dir, csvFile)
 
 ylabTxt = 'Median throughput [Requests per second]'
-xlabTxt = 'daily cost'
+xlabTxt = 'Daily cost [USD]'
 fillTxt = NULL
 titleTxt = 'Azure App Service'
 titleTxt = NULL
