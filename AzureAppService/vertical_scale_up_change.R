@@ -14,8 +14,8 @@ dataPreprocessing <- function(dir, csvFile){
 
 getPlot <- function(data, titleTxt, subtitleTxt, xlabTxt, ylabTxt, fillTxt){
   p = ggplot(data, aes(y=perfDiff, x=SpecGroup))
-  p = p + geom_point(size=4, aes(color=Technology, shape=Spec)) 
- 
+  p = p + geom_point(size=3, aes(color=Technology, shape=Spec)) 
+  p = p + scale_color_manual(values = c("orange", "blue4")) 
   p = p + ylab(ylabTxt)+xlab(xlabTxt)
   p = p + labs(title=titleTxt,
                subtitle=subtitleTxt,
@@ -24,8 +24,8 @@ getPlot <- function(data, titleTxt, subtitleTxt, xlabTxt, ylabTxt, fillTxt){
                )
   p = p + theme_bw()
   p = p + theme(
-      # axis.title.y = element_text(size = 11),
-	  # axis.text.y = element_text(size = 13),
+      # axis.title.y = element_text(size = 10),
+	    # axis.text.y = element_text(size = 13),
       plot.subtitle = element_text(hjust = 0.5, size = 14),
       plot.title = element_text(hjust = 0.5, size = 14)
   )
@@ -49,7 +49,7 @@ cityVertical = subset(data, Type %in% c('City'))
 
 p1 = getPlot(cityVertical, titleTxt, subtitleTxt, xlabTxt, ylabTxt, fillTxt)
 print(p1)
-
+# 574x450
 
 # 5.20
 routeVertical = subset(data, Type %in% c('Route'))
@@ -57,4 +57,5 @@ subtitleTxt = '100x shortest route'
 
 p2 = getPlot(routeVertical, titleTxt, subtitleTxt, xlabTxt, ylabTxt, fillTxt)
 print(p2)
+# 574x450
 

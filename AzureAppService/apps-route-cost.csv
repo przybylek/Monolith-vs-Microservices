@@ -1,7 +1,7 @@
 Technology,Architecture,Spec,Throughput,Cost,Efficient
+Java,Microservices,1 x P4:14,0.389055,19.8,yes
 Java,Microservices,1 x B1:1.75,0.02851,2.4,no
 .NET,Monolith,B1:1.75,0.03354,1.8,yes
-Java,Microservices,1 x P4:14,0.389055,19.8,yes
 .NET,Microservices,1 x B1:1.75,0.031165,2.4,no
 Java,Microservices,1 x S2:3.5,0.085795,5.4,yes
 .NET,Monolith,S2:3.5,0.06894,4.8,yes

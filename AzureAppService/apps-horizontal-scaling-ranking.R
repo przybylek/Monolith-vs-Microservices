@@ -12,6 +12,7 @@ dataPreprocessing <- function(dir, csvFile){
 getPlot <- function(data, titleTxt, subtitleTxt, xlabTxt, ylabTxt, fillTxt){
   p = ggplot(data, aes(y=Throughput, x=SpecGroup))
   p = p + geom_point(size=4, aes(color=Technology)) 
+  p = p + scale_color_manual(values = c("orange", "blue4"))
   p = p+ facet_grid(Type~Spec, scales = "free", space="free_x")
   p = p + ylab(ylabTxt)+xlab(xlabTxt)
   p = p + labs(title=titleTxt, subtitle=subtitleTxt)
