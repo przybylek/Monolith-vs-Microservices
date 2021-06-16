@@ -14,13 +14,13 @@ dataPreprocessing <- function(dir, csvFile){
 
 getPlot <- function(meltData, titleTxt, subtitleTxt, xlabTxt, ylabTxt, fillTxt){
   p = ggplot(meltData, aes(fill=variable, y=value, x=factor(variable)))
-  p = p + geom_boxplot() + facet_wrap(~Tech)
+  p = p + geom_boxplot(fill=c("lightgoldenrodyellow")) + facet_wrap(~Tech)
   p = p + ylab(ylabTxt)+xlab(xlabTxt)
   p = p + labs(fill=fillTxt, title=titleTxt, subtitle=subtitleTxt)
   p = p + theme_bw(base_size = 14)
   p = p + theme(#text = element_text(size = 20),
     axis.title.y = element_text(size = 12),
-		strip.text.x = element_text(size = 13), #grid panel header 
+		strip.text.x = element_text(size = 11), #grid panel header 
 		axis.text.x = element_text(size = 10), #grid panel label
 		# axis.text.y = element_text(size = 13), 
     plot.subtitle = element_text(hjust = 0.5, size = 14),
@@ -48,6 +48,7 @@ fillTxt = 'Architecture'
 titleTxt = 'Local test'
 titleTxt = NULL
 subtitleTxt = '1000x city query'
+
 
 p1 = getPlot(meltCity, titleTxt, subtitleTxt, xlabTxt, ylabTxt, fillTxt)
 

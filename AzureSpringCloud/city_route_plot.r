@@ -12,7 +12,7 @@ dataPreprocessing <- function(dir, csvFile){
 
 getPlot <- function(data, titleTxt, subtitleTxt, xlabTxt, ylabTxt, fillTxt){
   p = ggplot(data, aes(fill=variable, y=value, x=factor(variable)))
-  p = p + geom_boxplot() + facet_grid(~Spec, scales="free", space = "free", labeller = labeller(Spec = label_wrap_gen(8)))
+  p = p + geom_boxplot(fill=c("lightgoldenrodyellow")) + facet_grid(~Spec, scales="free", space = "free", labeller = labeller(Spec = label_wrap_gen(8)))
   p = p + ylab(ylabTxt)+xlab(xlabTxt)
   p = p + labs(fill=fillTxt, title=titleTxt, subtitle=subtitleTxt)
   p = p + theme_bw(base_size = 14)
@@ -53,7 +53,7 @@ print(p1)
 
 #5.5
 subtitleTxt = '100x shortest route'
-ylabTxt = ''
+ylabTxt = 'Throughput [Requests per second]'
 csvFile = 'route.csv'
 route = dataPreprocessing(dir, csvFile)
 
