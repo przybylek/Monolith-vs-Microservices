@@ -49,7 +49,7 @@ cityVertical = subset(data, Type %in% c('City'))
 
 p1 = getPlot(cityVertical, titleTxt, subtitleTxt, xlabTxt, ylabTxt, fillTxt)
 print(p1)
-# 574x450
+# 574x700
 
 # 5.20
 routeVertical = subset(data, Type %in% c('Route'))
@@ -57,5 +57,5 @@ subtitleTxt = '100x shortest route'
 
 p2 = getPlot(routeVertical, titleTxt, subtitleTxt, xlabTxt, ylabTxt, fillTxt)
 print(p2)
-# 574x450
+# 574x700
 

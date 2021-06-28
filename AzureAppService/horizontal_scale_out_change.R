@@ -49,7 +49,7 @@ subtitleTxt = '1000x city query'
 
 p1 = getPlot(cityHorizontal, titleTxt, subtitleTxt, xlabTxt, ylabTxt, fillTxt)
 print(p1)
-# 574x450
+# 574x700
 
 # 5.19
 routeHorizontal = subset(data, Type %in% c('Route'))
@@ -57,4 +57,4 @@ subtitleTxt = '100x shortest route'
 
 p2 = getPlot(routeHorizontal, titleTxt, subtitleTxt, xlabTxt, ylabTxt, fillTxt)
 print(p2)
-# 574x450
+# 574x700

@@ -4,6 +4,6 @@ Monolith,3 CPU 3GB RAM,11.60628,6.48,yes
 Monolith,4 CPU 6GB RAM,11.636785,9.12,yes
 Microservices,1 x 1 CPU 1GB RAM,10.58285,4.32,no
 Microservices,1 x 3 CPU 3GB RAM,11.621985,8.64,yes
-Microservices,3 x 1 CPU 1GB RAM,11.15028,8.34,no
+Microservices,3 x 1 CPU 1GB RAM,11.15028,8.64,no
 Microservices,6 x 1 CPU 1GB RAM,11.7475,15.12,no
 Microservices,2 x 2 CPU 2GB RAM,11.99355,10.8,yes
